@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url('assets/freedom.jpg') no-repeat center;
+    background-size: cover;
+    line-height: 1.4;
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+head {
+    width: 100%;
+}
+
+.quote {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 26px;
+    padding: 30px;
+    text-transform: uppercase;
+}
+
+.author {
+    font-style: italic;
+}
+
+.head {
+    width: 90%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+p {
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+li {
+    display: inline;
+}
+
+ul {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: dimgray;
+}
